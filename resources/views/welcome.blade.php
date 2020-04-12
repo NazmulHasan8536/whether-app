@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 <link rel="stylesheet" href="/css/main.css">
-<script src="/js/app.js"></script>
+<script src="/js/app.js" defer></script>
 </head>
-<body class="bg-blue-500">
-<a href="#" class="button bg-white hover:bg-gray-500">Hello</a>
+<body class="bg-blue-200">
+
+<div id="app" class="flex justify-center pt-16">
+<whether-app></whether-app>
+</div>
+
+
+
 </body>
 </html>
 
