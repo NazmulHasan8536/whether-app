@@ -1,6 +1,11 @@
-// tailwind.config.js
 module.exports = {
-    theme: {},
-    variants: {},
-    plugins: [],
-  }
+  theme: {
+    extend: {
+      spacing: {
+        '128': '32rem'
+      }
+    },
+  },
+  variants: {},
+  plugins: [],
+}

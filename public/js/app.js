@@ -1921,6 +1921,54 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37592,8 +37640,98 @@ var staticRenderFns = [
             "whether-container font-sans w-128 max-w-lg overflow-hidden bg-gray-900 shadow-lg mt-4"
         },
         [
-          _vm._v(
-            "\n        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci omnis velit, unde ratione numquam quidem quos officia reiciendis dignissimos culpa quae soluta ducimus consectetur quia laboriosam, ipsum eveniet! Sunt.\n    "
+          _c(
+            "div",
+            {
+              staticClass:
+                "whether-content flex justify-between content-center px-6 py-8"
+            },
+            [
+              _c("div", { staticClass: "flex items-center" }, [
+                _c("div", [
+                  _c("div", { staticClass: "text-6xl font-semibold" }, [
+                    _vm._v(
+                      "\n                            0°C\n                        "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _vm._v(
+                      "\n                            feels like 2°C\n                        "
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mx-5" }, [
+                _c("div", { staticClass: "font-semibold" }, [
+                  _vm._v(
+                    "\n                        cloudy\n                    "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", [_vm._v("Toronto, Canada")])
+              ]),
+              _vm._v(" "),
+              _c("div", [_vm._v("icon")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "future-weather text-sm bg-gray-800 px-6 py-8 overflow-hidden"
+            },
+            [
+              _c("div", { staticClass: "flex items-center" }, [
+                _c("div", { staticClass: "w-1/6 text-lg text-gray-200" }, [
+                  _vm._v("Mon")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-4/6 px-4 flex items-center" }, [
+                  _vm._v("Cloudy With a sun of Showers")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-1/6" }, [
+                  _c("div", [_vm._v("5°C")]),
+                  _vm._v(" "),
+                  _c("div", [_vm._v("2°C")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "flex items-center mt-8" }, [
+                _c("div", { staticClass: "w-1/6 text-lg text-gray-200" }, [
+                  _vm._v("Mon")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-4/6 px-4 flex items-center" }, [
+                  _vm._v("Cloudy With a sun of Showers")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-1/6" }, [
+                  _c("div", [_vm._v("5°C")]),
+                  _vm._v(" "),
+                  _c("div", [_vm._v("2°C")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "flex items-center mt-8" }, [
+                _c("div", { staticClass: "w-1/6 text-lg text-gray-200" }, [
+                  _vm._v("Mon")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-4/6 px-4 flex items-center" }, [
+                  _vm._v("Cloudy With a sun of Showers")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "w-1/6" }, [
+                  _c("div", [_vm._v("5°C")]),
+                  _vm._v(" "),
+                  _c("div", [_vm._v("2°C")])
+                ])
+              ])
+            ]
           )
         ]
       )
